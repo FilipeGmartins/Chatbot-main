@@ -217,67 +217,136 @@
                   <property name="geometry">
                    <rect>
                     <x>40</x>
-                    <y>50</y>
+                    <y>30</y>
                     <width>211</width>
                     <height>20</height>
                    </rect>
                   </property>
                   <property name="text">
-                   <string>                  Planilha Carregada </string>
+                   <string>                  Planilha de Modelos </string>
                   </property>
                  </widget>
                  <widget class="QTableWidget" name="tableWidget_3">
                   <property name="geometry">
                    <rect>
                     <x>0</x>
-                    <y>80</y>
+                    <y>60</y>
                     <width>281</width>
                     <height>31</height>
                    </rect>
                   </property>
                  </widget>
-                 <zorder>frame_8</zorder>
-                 <zorder>label_4</zorder>
-                 <zorder>tableWidget_3</zorder>
+                 <widget class="QFrame" name="frame_10">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>90</y>
+                    <width>257</width>
+                    <height>43</height>
+                   </rect>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_7">
+                   <item>
+                    <widget class="QPushButton" name="pushButton_6">
+                     <property name="text">
+                      <string>Exportar</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_8">
+                     <property name="text">
+                      <string>Salvar</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_7">
+                     <property name="text">
+                      <string>Excluir</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QLabel" name="label_5">
+                  <property name="geometry">
+                   <rect>
+                    <x>50</x>
+                    <y>150</y>
+                    <width>211</width>
+                    <height>20</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>                  Planilha de Clientes </string>
+                  </property>
+                 </widget>
+                 <widget class="QTableWidget" name="tableWidget_4">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>180</y>
+                    <width>281</width>
+                    <height>31</height>
+                   </rect>
+                  </property>
+                 </widget>
+                 <widget class="QFrame" name="frame_11">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>230</y>
+                    <width>257</width>
+                    <height>43</height>
+                   </rect>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_8">
+                   <item>
+                    <widget class="QPushButton" name="pushButton_9">
+                     <property name="text">
+                      <string>Exportar</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_10">
+                     <property name="text">
+                      <string>Salvar</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_11">
+                     <property name="text">
+                      <string>Excluir</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
                 </widget>
-                <widget class="QFrame" name="frame_10">
+                <widget class="QDateTimeEdit" name="dateTimeEdit">
                  <property name="geometry">
                   <rect>
-                   <x>450</x>
-                   <y>60</y>
-                   <width>141</width>
-                   <height>151</height>
+                   <x>440</x>
+                   <y>20</y>
+                   <width>131</width>
+                   <height>22</height>
                   </rect>
                  </property>
-                 <property name="frameShape">
-                  <enum>QFrame::StyledPanel</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Raised</enum>
-                 </property>
-                 <layout class="QVBoxLayout" name="verticalLayout_10">
-                  <item>
-                   <widget class="QPushButton" name="pushButton_6">
-                    <property name="text">
-                     <string>Exportar</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QPushButton" name="pushButton_7">
-                    <property name="text">
-                     <string>Excluir</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QPushButton" name="pushButton_8">
-                    <property name="text">
-                     <string>Salvar</string>
-                    </property>
-                   </widget>
-                  </item>
-                 </layout>
                 </widget>
                </widget>
               </item>
