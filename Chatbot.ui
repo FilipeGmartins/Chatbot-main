@@ -117,8 +117,8 @@
               <rect>
                <x>0</x>
                <y>0</y>
-               <width>98</width>
-               <height>28</height>
+               <width>160</width>
+               <height>294</height>
               </rect>
              </property>
              <attribute name="label">
@@ -357,7 +357,7 @@
               <item>
                <widget class="QTabWidget" name="tabWidget">
                 <property name="currentIndex">
-                 <number>1</number>
+                 <number>0</number>
                 </property>
                 <widget class="QWidget" name="tab">
                  <attribute name="title">
@@ -391,6 +391,46 @@
                       <string>DATA</string>
                      </property>
                     </column>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="frame_4">
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_3">
+                     <item>
+                      <widget class="QPushButton" name="pushButton_17">
+                       <property name="text">
+                        <string>Primeira </string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="pushButton_16">
+                       <property name="text">
+                        <string>Anterior</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="pushButton_15">
+                       <property name="text">
+                        <string>Proxima</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="pushButton_14">
+                       <property name="text">
+                        <string>Ultima pagina</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
                    </widget>
                   </item>
                  </layout>
@@ -580,22 +620,13 @@
         </widget>
        </item>
        <item>
-        <widget class="QFrame" name="frame_4">
+        <widget class="QFrame" name="frame_14">
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_3">
-          <item>
-           <widget class="QLabel" name="label_2">
-            <property name="text">
-             <string>TextLabel</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
         </widget>
        </item>
       </layout>
